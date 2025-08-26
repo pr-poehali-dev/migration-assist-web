@@ -8,7 +8,7 @@ const AboutSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-6">
-              Миграция PRO: Эксперты по миграции в Свердловской области
+              Опытный миграционный юрист в Екатеринбурге с 2015 года
             </h2>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               С 2015 года помогаем мигрантам в Екатеринбурге. Наша команда — юристы и экс-сотрудники МВД с глубоким знанием миграционного законодательства.

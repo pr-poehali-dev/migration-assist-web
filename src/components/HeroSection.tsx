@@ -22,7 +22,7 @@ const HeroSection = () => {
               </Badge>
             </div>
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-              Миграционные услуги и срочная помощь адвоката в <span className="text-primary">Свердловской области</span>
+              Миграционный юрист в Екатеринбурге: РВП, ВНЖ, Гражданство | <span className="text-primary">Срочный адвокат 24/7</span>
             </h1>
             <p className="text-xl text-gray-600 mb-8 leading-relaxed">
               Хотите легализоваться в Екатеринбурге? Поможем с РВП, ВНЖ, гражданством РФ или защитим при задержании полицией. С 2015 года оформили 10 000+ статусов.

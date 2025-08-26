@@ -172,10 +172,10 @@ const ServicesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-            Наши услуги в Свердловской области
+            Миграционные услуги в Екатеринбурге и Свердловской области
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Полный спектр миграционных услуг и юридическая защита для иностранных граждан
+            Профессиональная помощь в оформлении документов для мигрантов: РВП от 1500₽, ВНЖ от 2000₽, Гражданство от 3000₽, Срочный адвокат 20000₽
           </p>
         </div>
         

@@ -6,9 +6,9 @@ const ConsultationSection = () => {
   return (
     <section id="consultation" className="py-20 bg-primary text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl lg:text-4xl font-bold mb-6">Консультация миграционного юриста в Екатеринбурге</h2>
+        <h2 className="text-3xl lg:text-4xl font-bold mb-6">Бесплатная консультация миграционного юриста в Екатеринбурге</h2>
         <p className="text-xl mb-8 opacity-90">
-          Опишите ситуацию — дадим план за 15 минут. Срочный вызов адвоката за 20 000 руб.
+          Получите консультацию по РВП, ВНЖ, гражданству РФ или вызовите срочного адвоката при задержании за 20 000 руб. Работаем по всей Свердловской области 24/7.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
           <Button variant="secondary" size="lg" className="text-lg px-8 bg-white text-primary hover:bg-gray-100" asChild>
