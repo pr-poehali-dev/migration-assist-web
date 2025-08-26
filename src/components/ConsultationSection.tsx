@@ -17,7 +17,7 @@ const ConsultationSection = () => {
               Telegram консультация
             </a>
           </Button>
-          <Button variant="outline" size="lg" className="text-lg px-8 border-white text-white hover:bg-white hover:text-primary" asChild>
+          <Button variant="outline" size="lg" className="text-lg px-8 bg-white text-primary border-white hover:bg-gray-100" asChild>
             <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
               <Icon name="Phone" size={20} className="mr-2" />
               Позвонить сейчас
