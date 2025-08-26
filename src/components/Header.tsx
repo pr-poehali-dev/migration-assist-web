@@ -19,9 +19,11 @@ const Header = () => {
             <a href="#consultation" className="text-gray-600 hover:text-primary transition-colors">Консультация</a>
             <a href="#reviews" className="text-gray-600 hover:text-primary transition-colors">Отзывы</a>
             <a href="#contacts" className="text-gray-600 hover:text-primary transition-colors">Контакты</a>
-            <Button variant="destructive" size="sm">
-              <Icon name="Phone" size={16} className="mr-1" />
-              Срочный вызов
+            <Button variant="destructive" size="sm" asChild>
+              <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
+                <Icon name="Phone" size={16} className="mr-1" />
+                Срочный вызов
+              </a>
             </Button>
           </nav>
           <div className="md:hidden">

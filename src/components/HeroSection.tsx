@@ -28,13 +28,17 @@ const HeroSection = () => {
               Хотите легализоваться в Екатеринбурге? Поможем с РВП, ВНЖ, гражданством РФ или защитим при задержании полицией. С 2015 года оформили 10 000+ статусов.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
-              <Button size="lg" className="text-lg px-8">
-                <Icon name="MessageCircle" size={20} className="mr-2" />
-                Бесплатная консультация
+              <Button size="lg" className="text-lg px-8" asChild>
+                <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
+                  <Icon name="MessageCircle" size={20} className="mr-2" />
+                  Бесплатная консультация
+                </a>
               </Button>
-              <Button variant="destructive" size="lg" className="text-lg px-8">
-                <Icon name="AlertTriangle" size={20} className="mr-2" />
-                Адвокат за 20 000 руб
+              <Button variant="destructive" size="lg" className="text-lg px-8" asChild>
+                <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
+                  <Icon name="AlertTriangle" size={20} className="mr-2" />
+                  Адвокат за 20 000 руб
+                </a>
               </Button>
             </div>
             <div className="flex items-center space-x-6 text-sm text-gray-500">
@@ -71,9 +75,11 @@ const HeroSection = () => {
                   <label className="block text-sm font-medium text-gray-700 mb-2">Описание ситуации</label>
                   <Textarea placeholder="Кратко опишите вашу ситуацию" rows={3} />
                 </div>
-                <Button className="w-full" size="lg">
-                  <Icon name="Send" size={20} className="mr-2" />
-                  Вызвать адвоката
+                <Button className="w-full" size="lg" asChild>
+                  <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
+                    <Icon name="Send" size={20} className="mr-2" />
+                    Вызвать адвоката
+                  </a>
                 </Button>
               </form>
             </div>

@@ -74,9 +74,11 @@ const ContactsSection = () => {
             <div className="text-center lg:text-right">
               <div className="text-4xl font-bold text-red-600 mb-2">20 000 ₽</div>
               <div className="text-gray-600 mb-4">Фиксированная стоимость вызова</div>
-              <Button variant="destructive" size="lg">
-                <Icon name="Phone" size={20} className="mr-2" />
-                Вызвать адвоката сейчас
+              <Button variant="destructive" size="lg" asChild>
+                <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
+                  <Icon name="Phone" size={20} className="mr-2" />
+                  Вызвать адвоката сейчас
+                </a>
               </Button>
             </div>
           </div>

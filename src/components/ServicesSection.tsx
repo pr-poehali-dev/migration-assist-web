@@ -38,7 +38,9 @@ const ServicesSection = () => {
                     <span>98% успеха</span>
                   </div>
                 </div>
-                <Button variant="outline" className="w-full mt-4">Подробнее</Button>
+                <Button variant="outline" className="w-full mt-4" asChild>
+                  <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">Подробнее</a>
+                </Button>
               </div>
             </CardContent>
           </Card>
@@ -64,7 +66,9 @@ const ServicesSection = () => {
                     <span>Без очередей</span>
                   </div>
                 </div>
-                <Button variant="outline" className="w-full mt-4">Подробнее</Button>
+                <Button variant="outline" className="w-full mt-4" asChild>
+                  <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">Подробнее</a>
+                </Button>
               </div>
             </CardContent>
           </Card>
@@ -90,7 +94,9 @@ const ServicesSection = () => {
                     <span>1-3 года</span>
                   </div>
                 </div>
-                <Button variant="outline" className="w-full mt-4">Подробнее</Button>
+                <Button variant="outline" className="w-full mt-4" asChild>
+                  <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">Подробнее</a>
+                </Button>
               </div>
             </CardContent>
           </Card>
@@ -116,7 +122,9 @@ const ServicesSection = () => {
                     <span>24/7 защита</span>
                   </div>
                 </div>
-                <Button variant="destructive" className="w-full mt-4">Вызвать сейчас</Button>
+                <Button variant="destructive" className="w-full mt-4" asChild>
+                  <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">Вызвать сейчас</a>
+                </Button>
               </div>
             </CardContent>
           </Card>
