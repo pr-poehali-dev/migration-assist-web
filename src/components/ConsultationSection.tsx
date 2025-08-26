@@ -6,9 +6,7 @@ const ConsultationSection = () => {
   return (
     <section id="consultation" className="py-20 bg-primary text-white">
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-        <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-          Бесплатная консультация миграционного юриста в Екатеринбурге
-        </h2>
+        <h2 className="text-3xl lg:text-4xl font-bold mb-6">Консультация миграционного юриста в Екатеринбурге</h2>
         <p className="text-xl mb-8 opacity-90">
           Опишите ситуацию — дадим план за 15 минут. Срочный вызов адвоката за 20 000 руб.
         </p>
