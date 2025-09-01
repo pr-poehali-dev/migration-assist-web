@@ -29,10 +29,7 @@ const HeroSection = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 mb-8">
               <Button size="lg" className="text-lg px-8" asChild>
-                <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
-                  <Icon name="MessageCircle" size={20} className="mr-2" />
-                  Бесплатная консультация
-                </a>
+                <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">Консультация 24/7</a>
               </Button>
               <Button variant="destructive" size="lg" className="text-lg px-8" asChild>
                 <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
