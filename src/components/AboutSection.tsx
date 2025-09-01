@@ -61,15 +61,15 @@ const AboutSection = () => {
               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
                 <div className="text-center text-white p-6">
                   <h3 className="text-2xl font-bold mb-4"></h3>
-                  <p className="mb-4">Удобно расположен в центре города, рядом с МФЦ и отделениями МВД</p>
+                  <p className="mb-4"></p>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-center justify-center space-x-2">
                       <Icon name="MapPin" size={16} />
-                      <span>ул. Ленина, 15, офис 301</span>
+                      <span></span>
                     </div>
                     <div className="flex items-center justify-center space-x-2">
                       <Icon name="Clock" size={16} />
-                      <span>Пн-Пт: 9:00-18:00, экстренно 24/7</span>
+                      <span></span>
                     </div>
                   </div>
                 </div>
