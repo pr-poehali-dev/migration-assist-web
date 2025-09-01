@@ -43,20 +43,12 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4">Контакты</h4>
+            <h4 className="font-semibold mb-4">Поддержка</h4>
             <ul className="space-y-2 text-gray-400">
-              <li className="flex items-center space-x-2">
-                <Icon name="Phone" size={16} />
-                <span>+7 (343) 333-44-55</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <Icon name="MapPin" size={16} />
-                <span>ул. Ленина, 15, офис 301</span>
-              </li>
-              <li className="flex items-center space-x-2">
-                <Icon name="Clock" size={16} />
-                <span>24/7 экстренная помощь</span>
-              </li>
+              <li><a href="#" className="hover:text-white">Помощь</a></li>
+              <li><a href="#" className="hover:text-white">FAQ</a></li>
+              <li><a href="#" className="hover:text-white">Документы</a></li>
+              <li><a href="#" className="hover:text-white">Консультация</a></li>
             </ul>
           </div>
         </div>
