@@ -24,31 +24,31 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Услуги</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white">РВП</a></li>
-              <li><a href="#" className="hover:text-white">ВНЖ</a></li>
-              <li><a href="#" className="hover:text-white">Гражданство РФ</a></li>
-              <li><a href="#" className="hover:text-white">Срочный адвокат</a></li>
-              <li><a href="#" className="hover:text-white">Патент на работу</a></li>
+              <li><a href="#services" className="hover:text-white">РВП</a></li>
+              <li><a href="#services" className="hover:text-white">ВНЖ</a></li>
+              <li><a href="#services" className="hover:text-white">Гражданство РФ</a></li>
+              <li><a href="#services" className="hover:text-white">Срочный адвокат</a></li>
+              <li><a href="#services" className="hover:text-white">Патент на работу</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Информация</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white">О компании</a></li>
-              <li><a href="#" className="hover:text-white">Отзывы</a></li>
-              <li><a href="#" className="hover:text-white">Контакты</a></li>
-              <li><a href="#" className="hover:text-white">Политика конфиденциальности</a></li>
+              <li><a href="#about" className="hover:text-white">О компании</a></li>
+              <li><a href="#reviews" className="hover:text-white">Отзывы</a></li>
+              <li><a href="#faq" className="hover:text-white">FAQ</a></li>
+              <li><a href="#consultation" className="hover:text-white">Консультация</a></li>
             </ul>
           </div>
           
           <div>
             <h4 className="font-semibold mb-4">Поддержка</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-white">Помощь</a></li>
-              <li><a href="#" className="hover:text-white">FAQ</a></li>
-              <li><a href="#" className="hover:text-white">Документы</a></li>
-              <li><a href="#" className="hover:text-white">Консультация</a></li>
+              <li><a href="#consultation" className="hover:text-white">Помощь</a></li>
+              <li><a href="#faq" className="hover:text-white">FAQ</a></li>
+              <li><a href="#services" className="hover:text-white">Документы</a></li>
+              <li><a href="#consultation" className="hover:text-white">Консультация</a></li>
             </ul>
           </div>
         </div>

@@ -16,9 +16,9 @@ const Header = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#services" className="text-gray-600 hover:text-primary transition-colors">Услуги</a>
             <a href="#about" className="text-gray-600 hover:text-primary transition-colors">О нас</a>
-            <a href="#consultation" className="text-gray-600 hover:text-primary transition-colors">Консультация</a>
             <a href="#reviews" className="text-gray-600 hover:text-primary transition-colors">Отзывы</a>
-            <a href="#contacts" className="text-gray-600 hover:text-primary transition-colors">Контакты</a>
+            <a href="#faq" className="text-gray-600 hover:text-primary transition-colors">FAQ</a>
+            <a href="#consultation" className="text-gray-600 hover:text-primary transition-colors">Консультация</a>
             <Button variant="destructive" size="sm" asChild>
               <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
                 <Icon name="Phone" size={16} className="mr-1" />
