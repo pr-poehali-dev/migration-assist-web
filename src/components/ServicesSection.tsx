@@ -60,7 +60,7 @@ const ServicesSection = () => {
       items: [
         {
           title: 'Консультация по ВНЖ',
-          price: '2 000 ₽',
+          price: '3 000 ₽',
           features: [
             'Оценка ваших шансов на получение ВНЖ',
             'Требования для Свердловской области',
@@ -70,12 +70,12 @@ const ServicesSection = () => {
         },
         {
           title: 'Подготовка документов ВНЖ',
-          price: '8 500 ₽',
+          price: '9 900 ₽',
           features: [
             'Полный пакет документов',
             'Заполнение заявления',
             'Проверка справок и переводов',
-            'Запись на подачу в МВД Екатеринбурга'
+            'Письменный план действий'
           ]
         },
         {
@@ -83,9 +83,9 @@ const ServicesSection = () => {
           price: '20 000 ₽',
           features: [
             'Консультация и подготовка документов',
-            'Сопровождение в МВД',
             'Контроль прохождения',
-            'Получение готового ВНЖ'
+            'Получение готового ВНЖ',
+            'Юридическая поддержка на всех этапах'
           ]
         }
       ]
@@ -175,7 +175,7 @@ const ServicesSection = () => {
             Миграционные услуги в Екатеринбурге и Свердловской области
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Профессиональная помощь в оформлении документов для мигрантов: РВП от 1500₽, ВНЖ от 2000₽, Гражданство от 3000₽, Срочный адвокат 20000₽
+            Профессиональная помощь в оформлении документов для мигрантов: РВП от 1500₽, ВНЖ от 3000₽, Гражданство от 3000₽, Срочный адвокат 20000₽
           </p>
         </div>
         
@@ -222,7 +222,7 @@ const ServicesSection = () => {
             </CardHeader>
             <CardContent>
               <div className="space-y-3">
-                <div className="text-2xl font-bold text-secondary mb-2">от 2 000 ₽</div>
+                <div className="text-2xl font-bold text-secondary mb-2">от 3 000 ₽</div>
                 <div className="text-sm text-gray-600 space-y-1">
                   <div className="flex items-center justify-center space-x-2">
                     <Icon name="CheckCircle" size={14} className="text-green-500" />
