@@ -53,34 +53,7 @@ const HeroSection = () => {
               </div>
             </div>
           </div>
-          <div className="relative">
-            <div className="bg-white rounded-2xl shadow-2xl p-8 border">
-              <div className="text-center mb-6">
-                <h3 className="text-2xl font-bold text-gray-900 mb-2">Срочная помощь</h3>
-                <p className="text-gray-600">Заполните форму для экстренного вызова адвоката</p>
-              </div>
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Ваше имя</label>
-                  <Input placeholder="Введите ваше имя" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Телефон</label>
-                  <Input placeholder="+7 (___) ___-__-__" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium text-gray-700 mb-2">Описание ситуации</label>
-                  <Textarea placeholder="Кратко опишите вашу ситуацию" rows={3} />
-                </div>
-                <Button className="w-full" size="lg" asChild>
-                  <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
-                    <Icon name="Send" size={20} className="mr-2" />
-                    Вызвать адвоката
-                  </a>
-                </Button>
-              </form>
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
