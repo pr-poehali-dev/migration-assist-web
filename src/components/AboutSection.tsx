@@ -58,20 +58,7 @@ const AboutSection = () => {
                 alt="Офис миграционного юриста в Екатеринбурге"
                 className="w-full h-80 object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-                <div className="text-center text-white p-6">
-                  <h3 className="text-2xl font-bold mb-4">Наш офис в Екатеринбурге</h3>
-                  <p className="mb-4">Удобно расположен в центре города, рядом с МФЦ и отделениями МВД</p>
-                  <div className="space-y-2 text-sm">
-                    <div className="flex items-center justify-center space-x-2">
-                      <span>ул. Ленина, 15, офис 301</span>
-                    </div>
-                    <div className="flex items-center justify-center space-x-2">
-                      <span>Пн-Пт: 9:00-18:00, экстренно 24/7</span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
