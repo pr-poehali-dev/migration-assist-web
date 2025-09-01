@@ -52,20 +52,26 @@ const AboutSection = () => {
             </div>
           </div>
           <div className="relative">
-            <div className="bg-gradient-to-br from-primary/10 to-secondary/10 rounded-2xl p-8 text-center">
-              <Icon name="Building" size={64} className="text-primary mx-auto mb-4" />
-              <h3 className="text-2xl font-bold text-gray-900 mb-4">Наш офис в Екатеринбурге</h3>
-              <p className="text-gray-600 mb-6">
-                Удобно расположен в центре города, рядом с МФЦ и отделениями МВД
-              </p>
-              <div className="space-y-2 text-sm text-gray-600">
-                <div className="flex items-center justify-center space-x-2">
-                  <Icon name="MapPin" size={16} />
-                  <span>ул. Ленина, 15, офис 301</span>
-                </div>
-                <div className="flex items-center justify-center space-x-2">
-                  <Icon name="Clock" size={16} />
-                  <span>Пн-Пт: 9:00-18:00, экстренно 24/7</span>
+            <div className="relative rounded-2xl overflow-hidden">
+              <img 
+                src="/img/b02773c9-f6a6-4a5b-9bf8-8d852190cf27.jpg" 
+                alt="Офис миграционного юриста в Екатеринбурге"
+                className="w-full h-80 object-cover"
+              />
+              <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
+                <div className="text-center text-white p-6">
+                  <h3 className="text-2xl font-bold mb-4">Наш офис в Екатеринбурге</h3>
+                  <p className="mb-4">Удобно расположен в центре города, рядом с МФЦ и отделениями МВД</p>
+                  <div className="space-y-2 text-sm">
+                    <div className="flex items-center justify-center space-x-2">
+                      <Icon name="MapPin" size={16} />
+                      <span>ул. Ленина, 15, офис 301</span>
+                    </div>
+                    <div className="flex items-center justify-center space-x-2">
+                      <Icon name="Clock" size={16} />
+                      <span>Пн-Пт: 9:00-18:00, экстренно 24/7</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
