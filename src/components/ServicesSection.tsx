@@ -342,7 +342,10 @@ const ServicesSection = () => {
                       </ul>
                       <Button 
                         className="w-full mt-4"
-                        onClick={() => setOrderForm({ serviceName: item.title, servicePrice: item.price })}
+                        onClick={() => {
+                          setOpenDialog(null);
+                          setTimeout(() => setOrderForm({ serviceName: item.title, servicePrice: item.price }), 100);
+                        }}
                       >
                         Заказать услугу
                       </Button>
