@@ -3,9 +3,11 @@ import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 import Icon from '@/components/ui/icon';
+import OrderForm from '@/components/OrderForm';
 
 const ServicesSection = () => {
   const [openDialog, setOpenDialog] = useState<string | null>(null);
+  const [orderForm, setOrderForm] = useState<{ serviceName: string; servicePrice: string } | null>(null);
 
   const services = {
     rvp: {
@@ -338,10 +340,11 @@ const ServicesSection = () => {
                           </li>
                         ))}
                       </ul>
-                      <Button className="w-full mt-4" asChild>
-                        <a href="https://t.me/migracia_bot" target="_blank" rel="noopener noreferrer">
-                          Заказать услугу
-                        </a>
+                      <Button 
+                        className="w-full mt-4"
+                        onClick={() => setOrderForm({ serviceName: item.title, servicePrice: item.price })}
+                      >
+                        Заказать услугу
                       </Button>
                     </CardContent>
                   </Card>
@@ -357,6 +360,15 @@ const ServicesSection = () => {
             </DialogContent>
           </Dialog>
         ))}
+        
+        {/* Order Form Modal */}
+        {orderForm && (
+          <OrderForm
+            serviceName={orderForm.serviceName}
+            servicePrice={orderForm.servicePrice}
+            onClose={() => setOrderForm(null)}
+          />
+        )}
       </div>
     </section>
   );

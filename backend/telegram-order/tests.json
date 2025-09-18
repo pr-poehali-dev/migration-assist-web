@@ -1,0 +1,32 @@
+{
+  "tests": [
+    {
+      "name": "Test CORS preflight request",
+      "method": "OPTIONS",
+      "path": "/",
+      "expectedStatus": 200,
+      "expectedBody": "",
+      "bodyMatcher": "exact"
+    },
+    {
+      "name": "Test order submission with valid data",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "name": "Иван Петров",
+        "phone": "+7 999 123 45 67",
+        "email": "ivan@example.com",
+        "message": "Нужна помощь с РВП",
+        "serviceName": "РВП: План действий",
+        "servicePrice": "9,900 ₽",
+        "website": "migration-law.ru"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "success": true,
+        "message": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
