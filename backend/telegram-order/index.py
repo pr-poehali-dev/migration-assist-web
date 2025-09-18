@@ -1,7 +1,7 @@
 import json
 import os
 from typing import Dict, Any
-from datetime import datetime
+from datetime import datetime, timezone, timedelta
 import urllib.request
 import urllib.parse
 
@@ -70,7 +70,7 @@ def handler(event: Dict[str, Any], context: Any) -> Dict[str, Any]:
 💬 Сообщение:
 {message if message else 'без дополнительной информации'}
 
-📅 Время заявки: {datetime.now().strftime('%d.%m.%Y %H:%M')}
+📅 Время заявки: {datetime.now(timezone(timedelta(hours=5))).strftime('%d.%m.%Y %H:%M')} (Екатеринбург)
 🌐 Сайт: {website}"""
     
     # Send to Telegram
